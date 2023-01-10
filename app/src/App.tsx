@@ -1,12 +1,15 @@
+import {createTheme, ThemeProvider} from '@mui/material/styles';
 import React from 'react';
+import LandingPage from "./LandingPage";
+
+const theme = createTheme(
+
+);
 
 const App = () => (
-    <div className="App">
-        <header className="App-header">
-            Header
-        </header>
-        App: wedding-card
-    </div>
+    <ThemeProvider theme={theme}>
+        <LandingPage/>
+    </ThemeProvider>
 );
 
 export default App;
