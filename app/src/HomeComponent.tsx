@@ -5,8 +5,8 @@ import MainImage from './assets/images/wedding.jpeg';
 
 const HomeComponent = () => (
     <Box sx={{
-        background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${MainImage}) no-repeat center`,
-        backgroundSize: 'cover',
+        background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${MainImage}) no-repeat top center`,
+        backgroundSize: 'contain',
         backgroundAttachment: 'fixed',
         height: '100vh',
     }}>
