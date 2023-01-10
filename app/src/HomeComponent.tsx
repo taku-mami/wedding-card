@@ -1,20 +1,15 @@
 import React from 'react';
 import {Box, Container, Grid, Typography} from '@mui/material';
 // @ts-ignore
-import MainImage from './assets/images/wedding.png';
+import MainImage from './assets/images/wedding.jpeg';
 
 const HomeComponent = () => (
-    <Box id={'home'}
-         display={'flex'}
-         sx={{
-             background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${MainImage})`,
-             backgroundRepeat: 'no-repeat',
-             backgroundSize: 'cover',
-             backgroundPosition: 'center',
-             backgroundAttachment: 'fixed',
-             height: '100vh',
-             minHeight: '480px',
-         }}>
+    <Box sx={{
+        background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${MainImage}) no-repeat center`,
+        backgroundSize: 'contain',
+        backgroundAttachment: 'fixed',
+        height: '100vh',
+    }}>
         <Container sx={{
             display: 'flex',
             height: '140%',
