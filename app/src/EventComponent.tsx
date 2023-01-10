@@ -1,6 +1,6 @@
 import React from 'react';
 
-const EventComponent = () => (
+const temp = () => (
     <div className="ww-section bg-light" id="events">
         <div className="container ww-wedding-event">
             <h2 className="h1 text-center pb-3 ww-title">
@@ -59,6 +59,10 @@ const EventComponent = () => (
             </div>
         </div>
     </div>
+);
+
+const EventComponent = () => (
+    <></>
 );
 
 export default EventComponent;
