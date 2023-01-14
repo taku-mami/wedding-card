@@ -5,7 +5,7 @@ import MainImage from './assets/images/wedding.jpeg';
 
 const HomeComponent = () => (
     <Box sx={{
-        background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${MainImage}) no-repeat top center`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${MainImage}) no-repeat center center`,
         backgroundSize: 'contain',
         backgroundAttachment: 'fixed',
         height: '100vh',
@@ -24,11 +24,11 @@ const HomeComponent = () => (
                 <Grid item>
                     <Typography sx={{
                         fontFamily: '"Great Vibes", cursive',
-                        fontSize: '3.3em',
+                        fontSize: '2.9em',
                         color: '#fff',
                         textShadow: '2px 2px 2px rgb(0 0 0 / 40%)',
                     }}>
-                        Taku & Mami
+                        Sungtak & Mami
                     </Typography>
                 </Grid>
                 <Grid item>

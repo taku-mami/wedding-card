@@ -36,58 +36,64 @@ const temp = () => (
 );
 
 const IntroduceComponent = () => (
-    <Container>
-        <Grid container direction={'column'}
-              spacing={5}
-              sx={{
-                  justifyContent: 'center',
-                  alignItems: 'center',
-              }}
-        >
-            <Grid item>
-                <Typography sx={{
-                    fontFamily: '"Noto Serif KR", serif',
-                    fontSize: '2.5em',
-                }}>
-                    신랑 & 신부
-                </Typography>
-            </Grid>
-            <Grid item>
-                <Grid container direction={'row'}
-                      spacing={5}
-                      sx={{
-                          justifyContent: 'center',
-                          alignItems: 'center',
-                      }}
-                >
-                    <Grid item xs={6}>
-                        <Box sx={{
-                            background: `url(${GroomImage})`,
-                            width: '100px',
-                        }}/>
-                        <Typography sx={{
-                            fontFamily: '"Sunflower", sans-serif',
-                            fontSize: '1.5em',
-                        }}>
-                            타쿠
-                        </Typography>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Typography sx={{
-                            fontFamily: '"Sunflower", sans-serif',
-                            fontSize: '1.5em',
-                        }}>
-                            마미
-                        </Typography>
-                        <Box sx={{
-                            background: `url(${BrideImage})`,
-                            minWidth: '100px',
-                        }}/>
-                    </Grid>
+    <Grid container direction={'column'}
+          spacing={3}
+          sx={{
+              padding: '100px 0',
+              justifyContent: 'center',
+              alignItems: 'center',
+          }}
+    >
+        <Grid item>
+            <Typography sx={{
+                fontFamily: '"Noto Serif KR", serif',
+                fontSize: '2.5em',
+            }}>
+                신랑 & 신부
+            </Typography>
+        </Grid>
+        <Grid item>
+            <Grid container direction={'row'}
+                  spacing={3}
+                  sx={{
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      width: '100%',
+                  }}
+            >
+                <Grid item xs={12} sm={6}>
+                    <Typography sx={{
+                        fontFamily: `'Sunflower', sans-serif`,
+                        fontSize: '1.5em',
+                        textAlign: 'center',
+                    }}>
+                        윤성탁
+                    </Typography>
+                    <Box sx={{
+                        background: `url(${GroomImage}) no-repeat top center`,
+                        backgroundSize: 'contain',
+                        width: '375px',
+                        height: '650px',
+                    }}/>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    <Typography sx={{
+                        fontFamily: '"Sunflower", sans-serif',
+                        fontSize: '1.5em',
+                        textAlign: 'center',
+                    }}>
+                        야마모토 마미
+                    </Typography>
+                    <Box sx={{
+                        background: `url(${BrideImage}) no-repeat top center`,
+                        backgroundSize: 'contain',
+                        width: '375px',
+                        height: '500px',
+                    }}/>
                 </Grid>
             </Grid>
         </Grid>
-    </Container>
+    </Grid>
 );
 
 export default IntroduceComponent;
