@@ -1,6 +1,7 @@
+import {Grid, Typography} from '@mui/material';
 import React from 'react';
 
-const PhotoGalleryComponent = () => (
+const temp = () => (
     <div className="ww-section" id="gallery">
         <div className="ww-photo-gallery">
             <div className="container">
@@ -46,6 +47,26 @@ const PhotoGalleryComponent = () => (
             </div>
         </div>
     </div>
+);
+
+const PhotoGalleryComponent = () => (
+    <Grid container direction={'column'}
+          spacing={3}
+          sx={{
+              padding: '60px 0',
+              justifyContent: 'center',
+              alignItems: 'center',
+          }}
+    >
+        <Grid item>
+            <Typography sx={{
+                fontFamily: '"Noto Serif KR", serif',
+                fontSize: '2.5em',
+            }}>
+                포토갤러리
+            </Typography>
+        </Grid>
+    </Grid>
 );
 
 export default PhotoGalleryComponent;

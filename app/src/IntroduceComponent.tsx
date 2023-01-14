@@ -39,7 +39,7 @@ const IntroduceComponent = () => (
     <Grid container direction={'column'}
           spacing={3}
           sx={{
-              padding: '100px 0',
+              padding: '60px 0',
               justifyContent: 'center',
               alignItems: 'center',
           }}
@@ -70,11 +70,22 @@ const IntroduceComponent = () => (
                         윤성탁
                     </Typography>
                     <Box sx={{
-                        background: `url(${GroomImage}) no-repeat top center`,
-                        backgroundSize: 'contain',
+                        position: 'relative',
                         width: '375px',
                         height: '650px',
-                    }}/>
+                    }}>
+                        <Box sx={{
+                            position: 'absolute',
+                            top: '20px',
+                            left: '20px',
+                            bottom: '20px',
+                            right: '20px',
+                            background: `url(${GroomImage}) no-repeat center center`,
+                            backgroundSize: 'cover',
+                            boxShadow: 'inset 0px 0px 20px rgba(0, 0, 0, 0.5)',
+                            border: '10px solid #8B5E3C',
+                        }}/>
+                    </Box>
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <Typography sx={{
@@ -85,11 +96,22 @@ const IntroduceComponent = () => (
                         야마모토 마미
                     </Typography>
                     <Box sx={{
-                        background: `url(${BrideImage}) no-repeat top center`,
-                        backgroundSize: 'contain',
+                        position: 'relative',
                         width: '375px',
-                        height: '500px',
-                    }}/>
+                        height: '650px',
+                    }}>
+                        <Box sx={{
+                            position: 'absolute',
+                            top: '20px',
+                            left: '20px',
+                            bottom: '20px',
+                            right: '20px',
+                            background: `url(${BrideImage}) no-repeat center center`,
+                            backgroundSize: 'cover',
+                            boxShadow: 'inset 0px 0px 20px rgba(0, 0, 0, 0.5)',
+                            border: '10px solid #8B5E3C',
+                        }}/>
+                    </Box>
                 </Grid>
             </Grid>
         </Grid>

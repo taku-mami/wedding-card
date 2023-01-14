@@ -15,7 +15,8 @@ const FixedBottomNavigationComponent = () => {
     const fixedPosition = {
         // TODO: 나중에 useRef 등을 이용해서 scrollTop일 경우에는 fixed 안되게끔 개선
         position: 'fixed',
-        bottom: 0, left: 0, right: 0
+        bottom: 0, left: 0, right: 0,
+        zIndex: '9',
     }
 
     return (
