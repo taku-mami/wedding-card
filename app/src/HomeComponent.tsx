@@ -12,7 +12,7 @@ const HomeComponent = () => (
     }}>
         <Container sx={{
             display: 'flex',
-            height: '140%',
+            height: '150%',
         }}>
             <Grid container direction={'column'}
                   spacing={5}
