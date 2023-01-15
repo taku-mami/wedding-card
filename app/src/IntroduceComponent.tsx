@@ -3,7 +3,7 @@ import {Box, Container, Grid, Typography} from "@mui/material";
 // @ts-ignore
 import GroomImage from './assets/images/groom.jpg';
 // @ts-ignore
-import BrideImage from './assets/images/bride.jpeg';
+import BrideImage from './assets/images/bride.jpg';
 
 const temp = () => (
     <div className="ww-section" id="couple">

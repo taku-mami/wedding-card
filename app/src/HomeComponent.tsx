@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Container, Grid, Typography} from '@mui/material';
 // @ts-ignore
-import MainImage from './assets/images/wedding.jpeg';
+import MainImage from './assets/images/wedding.jpg';
 
 const HomeComponent = () => (
     <Box sx={{

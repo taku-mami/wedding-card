@@ -1,7 +1,7 @@
 import {Box, Grid, Typography} from '@mui/material';
 import React from 'react';
 // @ts-ignore
-import GroomImage from "./assets/images/groom.jpg";
+import NoruImage from "./assets/images/noru.jpg";
 
 const temp = () => (
     <div className="ww-section" id="gallery">
@@ -69,16 +69,8 @@ const PhotoGalleryComponent = () => (
             </Typography>
         </Grid>
         <Grid item>
-            <Typography sx={{
-                fontFamily: '"Noto Serif KR", serif',
-                fontSize: '2.5em',
-            }}>
-                포토갤러리
-            </Typography>
-        </Grid>
-        <Grid item>
             <Box sx={{
-                background: `url(${GroomImage}) no-repeat top center`,
+                background: `url(${NoruImage}) no-repeat top center`,
                 backgroundSize: 'contain',
                 width: '375px',
                 height: '600px',
@@ -86,7 +78,7 @@ const PhotoGalleryComponent = () => (
         </Grid>
         <Grid item>
             <Box sx={{
-                background: `url(${GroomImage}) no-repeat top center`,
+                background: `url(${NoruImage}) no-repeat top center`,
                 backgroundSize: 'contain',
                 width: '375px',
                 height: '600px',
@@ -94,7 +86,7 @@ const PhotoGalleryComponent = () => (
         </Grid>
         <Grid item>
             <Box sx={{
-                background: `url(${GroomImage}) no-repeat top center`,
+                background: `url(${NoruImage}) no-repeat top center`,
                 backgroundSize: 'contain',
                 width: '375px',
                 height: '600px',
