@@ -25,6 +25,7 @@ const AccountNumberComponent = () => {
               spacing={3}
               sx={{
                   padding: '60px 0',
+                  marginBottom: '40px',
                   justifyContent: 'center',
                   alignItems: 'center',
               }}
@@ -80,9 +81,7 @@ const AccountNumberComponent = () => {
                         <DialogContentComponent />
                     </DialogContent>
                 </Dialog>
-
             </Grid>
-
         </Grid>
     );
 }

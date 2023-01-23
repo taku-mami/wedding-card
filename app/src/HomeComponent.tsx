@@ -21,7 +21,7 @@ const HomeComponent = () => {
             } else {
                 setCurrentImage(MainImage_1);
             }
-        }, 5000);
+        }, 7000);
         return () => clearInterval(interval);
     }, [currentImage]);
 
@@ -30,7 +30,7 @@ const HomeComponent = () => {
         if (fade === 'in') {
             setTimeout(() => {
                 setFade('out');
-            }, 4000);
+            }, 6000);
         } else if (fade === 'out') {
             setTimeout(() => {
                 setFade('in');

@@ -19,7 +19,7 @@ const MapComponent = () => (
             </Typography>
         </Grid>
         <Grid item sx={{
-            minWidth: '375px'
+            width: '375px'
         }}>
             <Typography sx={{
                 fontFamily: 'Gugi',
