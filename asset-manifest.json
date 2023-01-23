@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-card/static/css/main.a9dbcf72.css",
-    "main.js": "/wedding-card/static/js/main.721b1fe0.js",
+    "main.js": "/wedding-card/static/js/main.8d6888c2.js",
     "static/media/wedding_home_1.jpeg": "/wedding-card/static/media/wedding_home_1.4427b9cd7aa3e9f0378a.jpeg",
     "static/media/wedding_home_3.jpeg": "/wedding-card/static/media/wedding_home_3.f9f4c31db7a786c80203.jpeg",
     "static/media/wedding_home_2.jpeg": "/wedding-card/static/media/wedding_home_2.100d5445eb33e4b17baa.jpeg",
@@ -12,10 +12,10 @@
     "static/media/yonsei.jpg": "/wedding-card/static/media/yonsei.3870e170e227aff10e09.jpg",
     "index.html": "/wedding-card/index.html",
     "main.a9dbcf72.css.map": "/wedding-card/static/css/main.a9dbcf72.css.map",
-    "main.721b1fe0.js.map": "/wedding-card/static/js/main.721b1fe0.js.map"
+    "main.8d6888c2.js.map": "/wedding-card/static/js/main.8d6888c2.js.map"
   },
   "entrypoints": [
     "static/css/main.a9dbcf72.css",
-    "static/js/main.721b1fe0.js"
+    "static/js/main.8d6888c2.js"
   ]
 }
