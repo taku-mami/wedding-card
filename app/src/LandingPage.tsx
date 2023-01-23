@@ -5,6 +5,7 @@ import IntroduceComponent from "./IntroduceComponent";
 import EventComponent from "./EventComponent";
 import PhotoGalleryComponent from './PhotoGalleryComponent';
 import MapComponent from "./MapComponent";
+import AccountNumberComponent from "./AccountNumberComponent";
 
 const LandingPage = () => (
     <>
@@ -14,6 +15,7 @@ const LandingPage = () => (
         <EventComponent/>
         <PhotoGalleryComponent/>
         <MapComponent/>
+        <AccountNumberComponent />
     </>
 );
 

@@ -1,39 +1,10 @@
 import React from 'react';
 import {Box, Container, Grid, Typography} from "@mui/material";
 // @ts-ignore
-import GroomImage from './assets/images/groom.jpg';
+import GroomImage from './assets/images/groom.jpeg';
 // @ts-ignore
-import BrideImage from './assets/images/bride.jpg';
+import BrideImage from './assets/images/bride.jpeg';
 
-const temp = () => (
-    <div className="ww-section" id="couple">
-        <div className="container">
-            <h2 className="h1 text-center pb-3 ww-title">
-                {/*style="font-family: 'Noto Serif KR', serif;"*/}
-                신랑 & 신부
-            </h2>
-            <div className="row text-center">
-                <div className="col-md-6">
-                    <div className="mt-3">
-                        <h3 className="h2 ww-title">
-                            {/*style="font-family: 'Sunflower', sans-serif; font-size:1.5em"*/}
-                            성탁</h3>
-                        <img alt="Groom" className="img-fluid" src="images/pic8.jpeg"/>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="mt-3">
-                        <h3 className="h2 ww-title">
-                            {/*style="font-family: 'Sunflower', sans-serif; font-size:1.5em"*/}
-                            마미
-                        </h3>
-                        <img alt="Bride" className="img-fluid" src="images/pic9.jpeg"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-);
 
 const IntroduceComponent = () => (
     <Grid container direction={'column'}

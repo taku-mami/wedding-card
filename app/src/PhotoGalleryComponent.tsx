@@ -61,36 +61,53 @@ const PhotoGalleryComponent = () => (
           }}
     >
         <Grid item>
-            <Typography sx={{
-                fontFamily: '"Noto Serif KR", serif',
-                fontSize: '2.5em',
-            }}>
-                포토갤러리
-            </Typography>
-        </Grid>
-        <Grid item>
-            <Box sx={{
-                background: `url(${NoruImage}) no-repeat top center`,
-                backgroundSize: 'contain',
-                width: '375px',
-                height: '600px',
-            }}/>
-        </Grid>
-        <Grid item>
-            <Box sx={{
-                background: `url(${NoruImage}) no-repeat top center`,
-                backgroundSize: 'contain',
-                width: '375px',
-                height: '600px',
-            }}/>
-        </Grid>
-        <Grid item>
-            <Box sx={{
-                background: `url(${NoruImage}) no-repeat top center`,
-                backgroundSize: 'contain',
-                width: '375px',
-                height: '600px',
-            }}/>
+            <Grid container direction={'row'}
+                  spacing={3}
+                  sx={{
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      width: '100%',
+                  }}
+            >
+                <Grid item xs={12} sm={6}>
+                    <Box sx={{
+                        position: 'relative',
+                        width: '375px',
+                        height: '650px',
+                    }}>
+                        <Box sx={{
+                            position: 'absolute',
+                            top: '20px',
+                            left: '20px',
+                            bottom: '20px',
+                            right: '20px',
+                            background: `url(${NoruImage}) no-repeat center center`,
+                            backgroundSize: 'cover',
+                            boxShadow: 'inset 0px 0px 20px rgba(0, 0, 0, 0.5)',
+                            border: '10px solid #8B5E3C',
+                        }}/>
+                    </Box>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    <Box sx={{
+                        position: 'relative',
+                        width: '375px',
+                        height: '650px',
+                    }}>
+                        <Box sx={{
+                            position: 'absolute',
+                            top: '20px',
+                            left: '20px',
+                            bottom: '20px',
+                            right: '20px',
+                            background: `url(${NoruImage}) no-repeat center center`,
+                            backgroundSize: 'cover',
+                            boxShadow: 'inset 0px 0px 20px rgba(0, 0, 0, 0.5)',
+                            border: '10px solid #8B5E3C',
+                        }}/>
+                    </Box>
+                </Grid>
+            </Grid>
         </Grid>
     </Grid>
 );
