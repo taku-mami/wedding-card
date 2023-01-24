@@ -1,4 +1,4 @@
-import {BottomNavigation, BottomNavigationAction, Paper} from '@mui/material';
+import {BottomNavigation, BottomNavigationAction, Divider, Paper} from '@mui/material';
 import React from 'react';
 import HomeIcon from '@mui/icons-material/Home';
 import CelebrationIcon from '@mui/icons-material/Celebration';
