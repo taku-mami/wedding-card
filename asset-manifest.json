@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/wedding-card/static/css/main.a9dbcf72.css",
-    "main.js": "/wedding-card/static/js/main.31e075e3.js",
+    "main.js": "/wedding-card/static/js/main.fdf4082b.js",
     "static/media/gallery_1.jpeg": "/wedding-card/static/media/gallery_1.5449ed3f3d820957f915.jpeg",
+    "static/media/wedding_home_1.jpeg": "/wedding-card/static/media/wedding_home_1.4427b9cd7aa3e9f0378a.jpeg",
     "static/media/gallery_4.jpeg": "/wedding-card/static/media/gallery_4.9421c058f38cf3156cf6.jpeg",
     "static/media/wedding_pic.jpeg": "/wedding-card/static/media/wedding_pic.3581a2d9a51d7ed4736e.jpeg",
     "static/media/wedding_home_3.jpeg": "/wedding-card/static/media/wedding_home_3.f9f4c31db7a786c80203.jpeg",
@@ -18,14 +19,13 @@
     "static/media/welcome_party_1.jpeg": "/wedding-card/static/media/welcome_party_1.4821b9311db22e98fa7f.jpeg",
     "static/media/gallery_5.jpeg": "/wedding-card/static/media/gallery_5.11d44467988e8a5b22d5.jpeg",
     "static/media/gallery_2.jpeg": "/wedding-card/static/media/gallery_2.5f8d4a619e922353f963.jpeg",
-    "static/media/wedding_home_1_2.jpeg": "/wedding-card/static/media/wedding_home_1_2.f8e7b170c803023badba.jpeg",
     "static/media/gallery_7.jpeg": "/wedding-card/static/media/gallery_7.d8493e832d7003b90046.jpeg",
     "index.html": "/wedding-card/index.html",
     "main.a9dbcf72.css.map": "/wedding-card/static/css/main.a9dbcf72.css.map",
-    "main.31e075e3.js.map": "/wedding-card/static/js/main.31e075e3.js.map"
+    "main.fdf4082b.js.map": "/wedding-card/static/js/main.fdf4082b.js.map"
   },
   "entrypoints": [
     "static/css/main.a9dbcf72.css",
-    "static/js/main.31e075e3.js"
+    "static/js/main.fdf4082b.js"
   ]
 }
