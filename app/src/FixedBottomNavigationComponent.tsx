@@ -10,6 +10,7 @@ import IntroduceComponent from "./IntroduceComponent";
 import EventComponent from "./EventComponent";
 import MapComponent from "./MapComponent";
 import AccountNumberComponent from "./AccountNumberComponent";
+import PhotoGalleryComponent from "./PhotoGalleryComponent";
 
 const FixedBottomNavigationComponent = () => {
     const [value, setValue] = React.useState('');
@@ -34,6 +35,7 @@ const FixedBottomNavigationComponent = () => {
         <>
             <HomeComponent />
             <IntroduceComponent />
+            <PhotoGalleryComponent />
             <EventComponent />
             <MapComponent />
             <AccountNumberComponent />
