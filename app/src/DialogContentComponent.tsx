@@ -39,9 +39,9 @@ const ContactItem = (props: ContactItemProps) => {
         <Grid item>
             <Grid container direction={'row'}
                   alignItems={'center'}
-                  spacing={3}
+                  spacing={2}
             >
-                <Grid item xs={4}>
+                <Grid item xs={5}>
                     <Typography sx={{
                         fontFamily: 'Gugi',
                         fontSize: '1.0em',
@@ -49,7 +49,7 @@ const ContactItem = (props: ContactItemProps) => {
                         {name}
                     </Typography>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={5}>
                     <Typography sx={{
                         fontFamily: 'Gugi',
                         fontSize: '1.0em',
@@ -85,7 +85,7 @@ const DialogContentComponent = () => {
         <Grid container direction={'column'}
               spacing={1}
               sx={{
-                  width: '300px',
+                  width: '320px',
               }}
         >
             <Grid item>
@@ -98,12 +98,12 @@ const DialogContentComponent = () => {
             </Grid>
             <Divider/>
             <Grid item>
-                <ContactItem name="신랑" value="010-2749-3905"/>
-                <ContactItem name="신랑 부" value="010-3764-3905"/>
-                <ContactItem name="신랑 모" value="010-4525-4905"/>
-                <ContactItem name="신부" value="080-3139-8495"/>
-                <ContactItem name="신부 부" value="080-0000-0000"/>
-                <ContactItem name="신부 모" value="080-0000-0000"/>
+                <ContactItem name="신랑 윤성탁" value="010-2749-3905"/>
+                <ContactItem name="신랑 부 윤진" value="010-3764-3905"/>
+                <ContactItem name="신랑 모 김정현" value="010-4525-4905"/>
+                <ContactItem name="신부 山本 真実" value="080-3139-8495"/>
+                <ContactItem name="신부 부 山本武司" value="080-4028-5567"/>
+                <ContactItem name="신부 모 山本桂子" value="080-3782-9666"/>
             </Grid>
             <Grid item>
                 <Typography sx={{

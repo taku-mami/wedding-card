@@ -96,6 +96,15 @@ const HomeComponent = () => {
                             }}>
                                 서울시 서대문구 연세대학교 알렌관
                             </Typography>
+                            <Typography sx={{
+                                fontFamily: '"Noto Serif KR", serif',
+                                fontSize: '1.0em',
+                                color: '#fff',
+                                textShadow: '2px 2px 2px rgb(0 0 0 / 40%)',
+                                textAlign: 'center',
+                            }}>
+                                ソウル市 延世大学 アーレン館
+                            </Typography>
                         </Grid>
                     </Grid>
                 </Container>

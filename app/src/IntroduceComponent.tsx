@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Container, Grid, Typography} from "@mui/material";
+import {Box, Grid, Typography} from "@mui/material";
 // @ts-ignore
 import GroomImage from './assets/images/groom.jpeg';
 // @ts-ignore
@@ -23,6 +23,12 @@ const IntroduceComponent = () => (
                 }}>
                     신랑 & 신부
                 </Typography>
+                <Typography sx={{
+                    fontFamily: '"Noto Serif KR", serif',
+                    fontSize: '2.5em',
+                }}>
+                    新郎 & 新婦
+                </Typography>
             </Grid>
             <Grid item>
                 <Grid container direction={'row'}
@@ -40,6 +46,13 @@ const IntroduceComponent = () => (
                             textAlign: 'center',
                         }}>
                             윤성탁
+                        </Typography>
+                        <Typography sx={{
+                            fontFamily: `'Sunflower', sans-serif`,
+                            fontSize: '1.5em',
+                            textAlign: 'center',
+                        }}>
+                            尹晟晫(ユンソンタク)
                         </Typography>
                         <Box sx={{
                             position: 'relative',
@@ -66,6 +79,13 @@ const IntroduceComponent = () => (
                             textAlign: 'center',
                         }}>
                             야마모토 마미
+                        </Typography>
+                        <Typography sx={{
+                            fontFamily: '"Sunflower", sans-serif',
+                            fontSize: '1.5em',
+                            textAlign: 'center',
+                        }}>
+                            山本 真実
                         </Typography>
                         <Box sx={{
                             position: 'relative',

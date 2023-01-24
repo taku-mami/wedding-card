@@ -33,8 +33,16 @@ const PhotoGalleryComponent = () => {
                 <Typography sx={{
                     fontFamily: '"Noto Serif KR", serif',
                     fontSize: '2.5em',
+                    textAlign: 'center',
                 }}>
                     포토 갤러리
+                </Typography>
+                <Typography sx={{
+                    fontFamily: '"Noto Serif KR", serif',
+                    fontSize: '2.5em',
+                    textAlign: 'center',
+                }}>
+                    フォトギャラリー
                 </Typography>
             </Grid>
             <Grid item>

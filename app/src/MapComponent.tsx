@@ -1,4 +1,4 @@
-import {Grid, Typography} from '@mui/material';
+import {Divider, Grid, Typography} from '@mui/material';
 import React from 'react';
 
 // @ts-ignore
@@ -18,6 +18,13 @@ const MapComponent = () => (
                     fontSize: '2.5em',
                 }}>
                     오시는 길
+                </Typography>
+                <Typography sx={{
+                    fontFamily: '"Noto Serif KR", serif',
+                    fontSize: '2.5em',
+                    textAlign: 'center',
+                }}>
+                    式場案内
                 </Typography>
             </Grid>
             <Grid item sx={{
@@ -93,9 +100,63 @@ const MapComponent = () => (
                 <Typography sx={{
                     fontFamily: 'Gugi',
                     fontSize: '1.0em',
+                    marginBottom: '10px',
                 }}>
                     연세대학교 본관 주차장 이용시 도보 약 15분 소요
                 </Typography>
+                <Divider/>
+                <div style={{
+                    display: 'flex',
+                    marginTop: '10px',
+                }}>
+                    <Typography sx={{
+                        fontFamily: 'Gugi',
+                        fontSize: '1.2em',
+                        fontWeight: 'bold',
+                    }}>
+                        式場名：
+                    </Typography>
+                    <Typography sx={{
+                        fontFamily: 'Gugi',
+                        fontSize: '1.2em',
+                    }}>
+                        延世大学アーレン館
+                    </Typography>
+                </div>
+                <div style={{
+                    display: 'flex',
+                }}>
+                    <Typography sx={{
+                        fontFamily: 'Gugi',
+                        fontSize: '1.2em',
+                        fontWeight: 'bold',
+                    }}>
+                        住所　：
+                    </Typography>
+                    <Typography sx={{
+                        fontFamily: 'Gugi',
+                        fontSize: '1.2em',
+                    }}>
+                        ソウル市西大門区新村洞134
+                    </Typography>
+                </div>
+                <div style={{
+                    display: 'flex',
+                }}>
+                    <Typography sx={{
+                        fontFamily: 'Gugi',
+                        fontSize: '1.2em',
+                        fontWeight: 'bold',
+                    }}>
+                        最寄駅：
+                    </Typography>
+                    <Typography sx={{
+                        fontFamily: 'Gugi',
+                        fontSize: '1.2em',
+                    }}>
+                        新村駅3番出口
+                    </Typography>
+                </div>
             </Grid>
             <Grid item sx={{
                 width: '375px',
