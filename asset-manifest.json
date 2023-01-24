@@ -1,21 +1,31 @@
 {
   "files": {
     "main.css": "/wedding-card/static/css/main.a9dbcf72.css",
-    "main.js": "/wedding-card/static/js/main.8d6888c2.js",
+    "main.js": "/wedding-card/static/js/main.fdf4082b.js",
+    "static/media/gallery_1.jpeg": "/wedding-card/static/media/gallery_1.5449ed3f3d820957f915.jpeg",
     "static/media/wedding_home_1.jpeg": "/wedding-card/static/media/wedding_home_1.4427b9cd7aa3e9f0378a.jpeg",
+    "static/media/gallery_4.jpeg": "/wedding-card/static/media/gallery_4.9421c058f38cf3156cf6.jpeg",
+    "static/media/wedding_pic.jpeg": "/wedding-card/static/media/wedding_pic.3581a2d9a51d7ed4736e.jpeg",
     "static/media/wedding_home_3.jpeg": "/wedding-card/static/media/wedding_home_3.f9f4c31db7a786c80203.jpeg",
     "static/media/wedding_home_2.jpeg": "/wedding-card/static/media/wedding_home_2.100d5445eb33e4b17baa.jpeg",
-    "static/media/noru.jpg": "/wedding-card/static/media/noru.a2de943592016c0909fa.jpg",
     "static/media/bride.jpeg": "/wedding-card/static/media/bride.dbae2d36b56aeb448a74.jpeg",
     "static/media/groom.jpeg": "/wedding-card/static/media/groom.79b301d75a890ab6e005.jpeg",
     "static/media/weddinghall.jpeg": "/wedding-card/static/media/weddinghall.7b61526bbcbde3bf1828.jpeg",
+    "static/media/gallery_9.jpeg": "/wedding-card/static/media/gallery_9.7945a161eb8e5a2a808b.jpeg",
+    "static/media/welcome_party_2.jpeg": "/wedding-card/static/media/welcome_party_2.0bc6a097c4d403fd19e5.jpeg",
     "static/media/yonsei.jpg": "/wedding-card/static/media/yonsei.3870e170e227aff10e09.jpg",
+    "static/media/gallery_6.jpeg": "/wedding-card/static/media/gallery_6.608a52e54d53f9f63c37.jpeg",
+    "static/media/gallery_8.jpeg": "/wedding-card/static/media/gallery_8.083f45e1b2d72879b72e.jpeg",
+    "static/media/welcome_party_1.jpeg": "/wedding-card/static/media/welcome_party_1.4821b9311db22e98fa7f.jpeg",
+    "static/media/gallery_5.jpeg": "/wedding-card/static/media/gallery_5.11d44467988e8a5b22d5.jpeg",
+    "static/media/gallery_2.jpeg": "/wedding-card/static/media/gallery_2.5f8d4a619e922353f963.jpeg",
+    "static/media/gallery_7.jpeg": "/wedding-card/static/media/gallery_7.d8493e832d7003b90046.jpeg",
     "index.html": "/wedding-card/index.html",
     "main.a9dbcf72.css.map": "/wedding-card/static/css/main.a9dbcf72.css.map",
-    "main.8d6888c2.js.map": "/wedding-card/static/js/main.8d6888c2.js.map"
+    "main.fdf4082b.js.map": "/wedding-card/static/js/main.fdf4082b.js.map"
   },
   "entrypoints": [
     "static/css/main.a9dbcf72.css",
-    "static/js/main.8d6888c2.js"
+    "static/js/main.fdf4082b.js"
   ]
 }
