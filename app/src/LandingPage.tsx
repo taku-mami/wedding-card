@@ -9,13 +9,7 @@ import AccountNumberComponent from "./AccountNumberComponent";
 
 const LandingPage = () => (
     <>
-        <HomeComponent/>
         <FixedBottomNavigationComponent/>
-        <IntroduceComponent/>
-        <PhotoGalleryComponent/>
-        <EventComponent/>
-        <MapComponent/>
-        <AccountNumberComponent/>
     </>
 );
 
