@@ -26,7 +26,6 @@ const HomeComponent = () => {
     }, [currentImage]);
 
     useEffect(() => {
-        console.log(fade)
         if (fade === 'in') {
             setTimeout(() => {
                 setFade('out');
@@ -86,7 +85,7 @@ const HomeComponent = () => {
                             color: '#fff',
                             textShadow: '2px 2px 2px rgb(0 0 0 / 40%)',
                         }}>
-                            2023. 04. 22. (SAT) AM 11:30
+                            2023. 04. 22. (SAT) PM 12:00
                         </Typography>
                         <Typography sx={{
                             fontFamily: '"Noto Serif KR", serif',

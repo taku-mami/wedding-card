@@ -12,10 +12,10 @@ const LandingPage = () => (
         <HomeComponent/>
         <FixedBottomNavigationComponent/>
         <IntroduceComponent/>
-        <EventComponent/>
         <PhotoGalleryComponent/>
+        <EventComponent/>
         <MapComponent/>
-        <AccountNumberComponent />
+        <AccountNumberComponent/>
     </>
 );
 
